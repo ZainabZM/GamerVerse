@@ -1,0 +1,10 @@
+.sendComment {
+   margin-left: 5%;
+}
+
+.scrollComments {
+   display: flex;
+   flex-direction: column;
+   overflow-y: auto;
+   max-height: 200px;
+}

@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #898698,
+    #a4a1b1,
+    #c0bdca,
+    #dddae4,
+    #faf8ff
+  );
+  line-height: 1.8;
+  font-size: 14px;
+  font-weight: 400;
+  background-attachment: fixed;
+  width: auto;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  background-image: url(/images/fond-page-home.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+@media (max-width: 1439px) {
+  body {
+    font-size: calc(0vw + 14px);
+  }
+}

@@ -1,0 +1,267 @@
+.registerInput {
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ebebeb;
+  background: 0 0;
+  width: 100%;
+  display: block;
+  color: #465b6c;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 3px 0;
+}
+
+.registerInput,
+select,
+textarea {
+  outline: none;
+}
+
+.registerInput[type="checkbox"]:not(old) {
+  width: 2em;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+.registerInput[type="checkbox"] {
+  appearance: checkbox !important;
+  position: relative;
+  top: 18px;
+  right: 8px;
+}
+
+.checkbox:hover input ~ .checkmark {
+  background-color: #7a6e7a;
+}
+.checkbox input:checked ~ .checkmark {
+  background-color: #465b6c;
+}
+
+.checkmark {
+  position: absolute;
+  top: 20%;
+  height: 12px;
+  width: 12px;
+  border: 2px solid #c9c9c9;
+  background-color: #dedbdb;
+}
+
+.subRegister {
+  width: 56.1vw;
+  height: 70.7vh;
+  margin-top: 8%;
+}
+
+.cont {
+  width: 56.1vw;
+  height: 70.7vh;
+  background-image: url(https://images2.alphacoders.com/199/199312.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-left: 38%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.registerForm {
+  width: 36.1vw;
+  height: 70.7vh;
+  background: rgba(194, 193, 191, 0.75);
+  border-radius: 5px;
+}
+
+.registerSection {
+  margin-bottom: 23px;
+  position: relative;
+  bottom: 20px;
+}
+
+.labelTerms {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.termLink {
+  color: #fff;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.submit {
+  width: 130px;
+  border-radius: 25px;
+  font-size: 13px;
+  cursor: pointer;
+  width: auto;
+  display: inline-block;
+  border: none;
+  background: #465b6c;
+  color: white;
+  padding: 10px;
+  height: 50px;
+  letter-spacing: 2px;
+  box-shadow: 0 15px 9.9px 0.1px rgba(0, 0, 0, 0.15);
+  margin-right: 25px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  bottom: 45px;
+}
+
+.submit:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#soldier {
+  position: absolute;
+  z-index: +1;
+  top: 229px;
+  right: 855px;
+}
+
+#terms {
+  display: none;
+}
+
+#registerH2 {
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #465b6c;
+  font-size: 36px;
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#registerForm {
+  padding: 8px 80px 36px 55px;
+  margin-top: 40px;
+}
+
+#bubble {
+  width: 200px;
+  position: absolute;
+  left: 29%;
+  top: 22%;
+}
+
+@media screen and (max-width: 1292px) {
+  .mainRegister {
+    max-width: 90vh;
+    margin: 0 auto;
+  }
+  .cont {
+    margin-left: -1%;
+  }
+}
+
+@media screen and (max-height: 690px) {
+  #soldier {
+    display: none;
+  }
+  #bubble {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1526.4px) {
+  #soldier {
+    top: 209%;
+  }
+  #bubble {
+    top: 209%;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  #soldier {
+    display: none;
+  }
+  #bubble {
+    display: none;
+  }
+  #soldier {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1526.4px) {
+  #soldier {
+    top: 209%;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  #soldier {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mainRegister {
+    margin-top: 90px;
+  }
+
+  .registerForm {
+    width: 56.1vw;
+    height: 73.7vh;
+  }
+
+  .cont {
+    height: 73.7vh;
+  }
+
+  .checkmark {
+    top: 8%;
+  }
+}
+
+@media screen and (max-width: 1283px) {
+  .mainRegister {
+    margin-top: 110px;
+  }
+  .registerForm {
+    height: 75.7vh;
+  }
+
+  .cont {
+    height: 75.7vh;
+  }
+}
+
+@media screen and (max-width: 1483px) {
+  .registerForm {
+    height: 75.7vh;
+  }
+
+  .cont {
+    height: 75.7vh;
+  }
+}
+
+@media screen and (max-width: 1465px) {
+  .checkmark {
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .cont {
+    height: 85vh;
+    margin-left: 100px;
+  }
+  .checkmark {
+    top: 7%;
+  }
+  .registerForm {
+    width: 56.1vw;
+    height: 85vh;
+    margin-left: 100px;
+  }
+}

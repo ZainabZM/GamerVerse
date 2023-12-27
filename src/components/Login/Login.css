@@ -1,0 +1,78 @@
+.mainContainer {
+  min-width: 30%;
+  min-height: 50%;
+  position: absolute;
+  left: 30%;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  border-top: 3px solid teal;
+  background-image: linear-gradient(to right top, #333333, #39393a);
+  box-shadow: 0 px 30px rgba(35, 35, 35, 0.1);
+  opacity: 1;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  color: rgb(175, 179, 199);
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+.inputContainer {
+  min-width: 30vw;
+}
+
+/* ----> Image Mario avec animation */
+#bubble {
+  width: 200px;
+  position: absolute;
+  left: -11% !important;
+  top: -19% !important;
+}
+
+.mario {
+  animation-name: my-animation;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 28%;
+  right: -22%;
+  width: 50%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1393px) {
+  .mario {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .mainContainer {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .mainContainer {
+    left: 0%;
+  }
+}

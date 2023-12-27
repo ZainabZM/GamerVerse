@@ -1,0 +1,16 @@
+.userComment {
+   font-size: x-small;
+   padding-left: 3%;
+}
+
+.contentComment {
+   font-size: small;
+   padding-left: 1%;
+}
+
+.commentContainer {
+   border: solid gray 1px;
+   margin-left: 5%;
+   margin-right: 5%;
+   border-radius: 10px;
+}

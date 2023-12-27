@@ -1,0 +1,24 @@
+.termsDiv {
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+
+.termsDiv p {
+  background-color: rgb(213, 231, 231);
+  border-radius: 7px;
+}
+
+.top {
+  position: absolute;
+  left: 40%;
+  margin-top: 20px;
+  background-color: rgb(213, 231, 231);
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.termCont {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}

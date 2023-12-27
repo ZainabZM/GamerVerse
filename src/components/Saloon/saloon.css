@@ -1,0 +1,28 @@
+.css-1q03nnm-MuiButtonBase-root-MuiFab-root {
+   margin-left: -11% !important;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+   margin-bottom: 100px !important;
+}
+
+.saloonPost {
+   margin-bottom: 25px !important;
+}
+
+@media screen and (min-width: 390px) {
+   .main-post-title {
+      margin-top: 10% !important;
+      text-align: center;
+      font-size: 55px !important;
+   }
+}
+.css-1q03nnm-MuiButtonBase-root-MuiFab-root {
+   width: 500px;
+}
+
+@media screen and (min-width: 390px) {
+   .css-1q03nnm-MuiButtonBase-root-MuiFab-root {
+      left: 15%;
+   }
+}
